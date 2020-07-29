@@ -1,0 +1,33 @@
+{% load static %}
+{% block content %}
+<html>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href='{% static "assets/css/main.css" %}' />
+		<noscript><link rel="stylesheet" href='{% static "assets/css/noscript.css"%}' /></noscript>
+	</head>
+	<body class="is-preload">
+			<section id="header">
+				<header>
+					<h1><a href="/">OCR by Nishant</h1></a>
+<hr class="style1">
+<br>
+					<h1><a href="/">success</h1></a><br>
+
+
+      <h5>Input Text={{result}}</h3><br>
+
+
+
+		<!-- Scripts -->
+			<script src='{% static "assets/js/jquery.min.js" %}'></script>
+			<script src='{% static "assets/js/jquery.scrolly.min.js" %}'></script>
+			<script src='{% static "assets/js/jquery.poptrox.min.js" %}'></script>
+			<script src='{% static "assets/js/browser.min.js" %}'></script>
+			<script src='{% static "assets/js/breakpoints.min.js" %}'></script>
+			<script src='{% static "assets/js/util.js" %}'></script>
+			<script src='{% static "assets/js/main.js" %}'></script>
+
+	</body>
+</html>
+{% endblock %}
